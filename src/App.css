@@ -1,0 +1,42 @@
+/* App.css */
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  flex-grow: 1; 
+}
+
+nav {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 15px; 
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
